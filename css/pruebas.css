@@ -1,0 +1,44 @@
+body{
+    background-color:cornsilk; 
+    margin-left: 50px;
+    margin-top: 0px;
+}
+h1{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+b{
+    color: chocolate;
+}
+.limon{
+    color: yellowgreen;
+}
+#idrosa{
+    color: rosybrown;
+    font-size: 23px;
+}
+img{
+    height: 200px;
+    weight: 200px;
+}
+table,td,th
+{
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+td{
+    color: blueviolet;
+}
+th{
+    background-color: gray;
+}
+#rojoid{
+    color: red;
+}
