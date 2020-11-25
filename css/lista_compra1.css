@@ -1,0 +1,12 @@
+ol>li{
+    color: brown;
+}
+ul>li{
+    color: yellow;
+}
+body>p{
+    color: blue;
+}
+div+p{
+    color: red;
+}
