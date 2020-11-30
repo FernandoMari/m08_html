@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <html>
+        <head>
+            <title>Títol de la pestanya</title>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link rel="stylesheet" href="../css/formulario.css"/>
+        </head>
+        <body>
+            <h1>Contacta con nosotros</h1>
+            <form action="form.html" method="get" enctype="multipart/form-data">
+            <fieldset>
+            <label>Pon tu nombre:</label>
+            <input type="text"  value="valor defecto" placeholder="Input text"/>
+            <br/>
+            <br/>
+            <label>Pon tu edad:</label>
+            <input type="number" value="18"/>
+           <br/>
+            <label>Pon aqui tu email:</label>
+            <input type="email" value="default@default"/>
+            </fieldset>
+                <fieldset>
+                <label>Que deporte te gusta mas:</label>
+                <input type="radio" name=" aficiones" value="a"/>Hockey
+                <input type="radio" name=" aficiones" value="c"/>Basket
+                <input type="radio" name=" aficiones" value="g"/>Futbol
+                <input type="radio" name=" aficiones" value="t"/>Tennis
+                <br/>
+                <label>Que paises te gustaria ver:</label>
+                <input type="checkbox" id="id_checkbox1" name="paises[]" value="a"/>Argentina
+                <input type="checkbox" id="id_checkbox2" name="paises[]" value="c"/>Alemania
+                <input type="checkbox" id="id_checkbox3" name="paises[]" value="g"/>Paraguay
+                <input type="checkbox" id="id_checkbox4" name="paises[]" value="t"/>Rusia
+                <br/>
+                <label for="id_date">Cuando naciste:</label>
+                <input type="date" id="id_date" name="n_date" value="2017-12-31"/>
+
+
+                    <label for="id_select">Juego preferido:</label>
+                    <select id="id_select" name="n_select">
+                        <option value="default">Minecraft</option>
+                        <option value="a">LOL</option>
+                        <option value="c">Valorant</option>
+                        <option value="g">Roblox</option>
+                        <option value="t">Monkey Island</option>
+                    </select>
+
+                    <label for="id_multiselect">Juego Preferido:</label>
+                    <select multiple name="n_multiselect[]">
+                        <option value="a" selected="selected">Minecraft</option>
+                        <option value="c" selected="selected">LOL</option>
+                        <option value="g">Valorant</option>
+                        <option value="t">Monkey Island</option>
+                    </select>
+                    <br/>
+                    <label for="id_textarea">Input text:</label>
+                    <textarea id="id_textarea" name="n_textarea">Default text</textarea>
+
+                </fieldset>
+                <fieldset>
+                    <legend>buttons</legend>
+     
+                    
+                    <input type="submit" id="id_submit" name="n_submit" value="Enviar"/>
+     
+                    
+                    <input type="reset" id="id_reset" name="n_reset" value="Borrar"/>
+     
+                   
+                    <button id="id_button" name="n_button" value="otro boton" onclick="alert('javascript'); return false;">Otro boton</button>
+                </fieldset>
+
+
+
+
+
+
+            </form>
+        </body>
+    </html>
+

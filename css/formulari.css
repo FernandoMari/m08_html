@@ -1,0 +1,35 @@
+h1{
+color: green;
+text-align: center
+
+}
+.idioma{
+    background-color:aqua;
+}
+.color3{
+    color: red;
+}
+.estudios{
+    background-color: pink
+}
+.nacionalidad{
+    background-color: rgb(164, 235, 57);
+}
+.color2{
+    color: orange;
+}
+#info{
+    background-color: rgb(241, 178, 142);
+}
+.color{
+    color: blue
+}
+#botones{
+    background-color: rgb(173, 169, 169);
+}
+legend{
+    text-decoration-line: underline
+}
+.margen{
+    margin-right: 10cm; 
+}
