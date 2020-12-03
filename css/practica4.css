@@ -1,0 +1,50 @@
+@font-face{
+    font-family: Nerko;
+    src: url(../Fonts/NerkoOne-Regular.ttf);
+}
+@font-face{
+    font-family: Major;
+    src: url(../Fonts/MajorMono.ttf);
+}
+@font-face{
+    font-family: Noto;
+    src: url(../Fonts/NotoSansJP-Thin.otf);
+}
+@font-face{
+    font-family: Noto2 ;
+    src: url(../Fonts/NotoSansJP-Medium.otf);
+}
+table,th,td{
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: 25cm;
+    padding-right: 1cm;
+   
+}
+iframe,video{
+    margin-left: 1cm;
+}
+a:hover{
+    color: green;
+    background-color: yellow;
+    font-size: 2cm;
+}
+.text{
+    background-color: aqua;
+    font-family: Nerko;
+}
+.text2{
+    background-color: grey;
+    font-family: Major;
+}
+.text3{
+    background-color: chocolate;
+    font-family: Noto;
+}
+.text4{
+    background-color: violet;
+    font-family: Noto2;
+}

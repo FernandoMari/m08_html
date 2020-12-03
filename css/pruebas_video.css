@@ -1,0 +1,27 @@
+@font-face{
+    font-family: NerkoOne-Regular;
+    src: url(../Fonts/NerkoOne-Regular.ttf);
+}
+video{
+    width: 320px;
+    height: 200px;
+}
+#lion{
+    width: 400px;
+    height: 320px;
+}
+h2{
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+}
+h2:hover{
+    color: yellow;
+    background-color: blue;
+}
+a:link{
+    color:green; 
+}
+a:visited{
+    color: aqua;
+}
