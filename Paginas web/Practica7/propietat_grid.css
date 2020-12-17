@@ -2,3 +2,61 @@ div
 {
     border: 2px solid black;
 }
+#primerdiv{
+    display: grid;
+}
+#goku1{
+    grid-column-start: 3
+}
+#div2{
+    display: grid;
+}
+#termina{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#div3{
+    display: grid;
+    grid-column-end: span 2;
+}
+#div4{
+    display: grid;
+    grid-column: 4 / 6;
+}
+#div5{
+    display: grid;
+}
+#view1{
+    grid-row-start:3 ;
+    grid-column-start: 2;
+}
+#termina3{
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+#div6{
+    display:grid;
+}
+#view2{
+    order: 1;
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+}
+#goku2{
+    order: 1;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+#div7{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+#view3{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+#goku3{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
