@@ -1,0 +1,68 @@
+div{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+
+}
+.capçalera{
+    width: 100%;
+    height: 100%;
+    background-color: chocolate;
+    position: relative;
+}
+h1{
+    width:70%;
+    margin-left: 15% ;
+    margin-top: -4.4%;
+   position: relative;
+}
+.index{
+    position: relative;;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+.index2{
+    position:relative;
+    width: 10%;
+    height: 10%;
+    background-color: green;
+    border-left: 25% solid #e93700;
+    margin-top: 37.5%; 
+    padding: 2px 0 2px 4px; 
+    list-style:none;
+    margin:0;
+    font-size: 75%; color: gray; 
+    text-decoration: #e93700;
+    color: #e93700;
+}
+h2{
+    color: #e93700; 
+    font-size: 112.5%; 
+    font-weight: normal;
+}
+
+.cuerpo{
+    position: absolute;
+    width: 59.4%;
+    height: 45.9%;
+    top: 27.5%;
+    left: 11%;
+    right: 100%;
+    background-color: blueviolet;
+}
+.Banner{
+    position: absolute;
+    width: 28.9%;
+    height: 45.9%;
+    top: 27.5%;
+    left: 70.5%;
+    right: 100%;
+    background-color: aqua;
+}
+.creador{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
