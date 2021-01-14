@@ -1,0 +1,152 @@
+#radius{
+    display: flex;
+    justify-content: space-between;
+}
+#radius1{
+    border-radius: 25px;
+    background: green;
+    border: solid;
+    margin-bottom: 1px;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+}
+#radius2{
+    border-radius: 15px 50px 30px;
+    background: blue;
+    border: solid;
+    margin-bottom: 1px;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+   
+}
+#radius3{
+    border-radius: 20px / 70px;
+    background: red;
+    border: solid;
+    margin-bottom: 1px;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+    
+}
+#radius4{
+    border-radius: 50%;
+    background: yellow;
+    border: solid;
+    margin-bottom: 1px;
+    padding: 4%;
+    width: 5%;
+    height: 2%;
+}
+#trans1{
+    background-color: rgba(255,0,0,0.3)
+}
+#trans2{
+    background-color: rgba(255,0,0,0.4)
+}
+#trans3{
+    background-color: rgba(72, 255, 0, 0.6);
+    opacity: 0.6;
+}
+#trans4{
+    background-color: rgba(72, 255, 0, 0.8);
+    opacity: 0.6;
+}
+#gradient1{
+    height: 50px;
+    background-image: linear-gradient(red, yellow);
+    text-align: center;
+}
+#gradient2{
+    height: 50px;
+    background-image: linear-gradient(to right, red, yellow)
+}
+#sombra1{
+    text-shadow: 2px 2px ;
+}
+#sombra2{
+    text-shadow: 2px 2px 5px blue;
+}
+#sombra3{
+    text-shadow: 0 0 3px red, 0 0 5px blue;
+}
+#sombra4{
+    width: 300px;
+    height: 100px;
+    background-color: yellowgreen;
+    box-shadow: 10px 10px grey
+}
+#sombra5{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: blue;
+    box-shadow: 10px 10px 5px red;
+}
+#transf1{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+#transf2{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: translate(30px,50px);
+    transform: translate(30px, 50px)
+}
+div#transf2{
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg); /* Standard syntax */
+}
+#transf4{
+    width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  -ms-transform: scale(2,3); /* IE 9 */
+  transform: scale(2,3); /* Standard syntax */
+}
+#transi1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 1s;
+}
+#transi1:hover{
+    width: 300px;
+    height: 300px;
+    background: blue;
+}
+#animacio1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: mover;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+@keyframes mover{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:green; left:200px; top:0px;}
+    50%  {background-color:greenyellow; left:200px; top:200px;}
+    75%  {background-color:blue; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+#multi1{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: aqua;
+}
