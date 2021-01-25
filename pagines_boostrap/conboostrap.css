@@ -1,0 +1,13 @@
+body{
+    background-color: plum;
+}
+.table {
+    width: 40%;
+}
+.ancho{
+    margin: auto;
+    width: 40%;
+}
+/*.card{
+    display: inline-block
+}
